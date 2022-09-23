@@ -7,29 +7,31 @@
 	<script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-	<div class="bg-indigo-700 p-4 flex justify-between items-center">
-		<div class="flex items-center">
-			<img src="https://cdn2.iconfinder.com/data/icons/icontober/64/Inkcontober_Trail-256.png" width="50" alt="Logo" class="mr-2">
-			<a class="inline-block p-2 text-indigo-200 hover:text-indigo-100 mr-2" href="#">Home</a>
-			<a class="inline-block p-2 text-indigo-200 hover:text-indigo-100" href="#">About</a>
+	<div class="flex flex-col w-full h-screen bg-indigo-600">
+		<div class="p-4 flex justify-between items-center h-24 bg-indigo-700">
+			<div class="flex items-center">
+				<img src="https://cdn2.iconfinder.com/data/icons/icontober/64/Inkcontober_Trail-256.png" width="50" alt="Logo" class="mr-2">
+				<a class="inline-block p-2 text-indigo-200 hover:text-indigo-100 mr-2" href="#">Home</a>
+				<a class="inline-block p-2 text-indigo-200 hover:text-indigo-100" href="#">About</a>
+			</div>
+
+			<div class="hidden md:block">
+				<a class="inline-block p-2 text-indigo-200 hover:text-indigo-100 mr-2" href="#">Login</a>
+				<a class="inline-block p-2 text-indigo-200 text-yellow-700 bg-yellow-400 hover:bg-yellow-300 hover:text-yellow-800 rounded transition ease-in duration-150" href="#">Signup</a>
+			</div>		
 		</div>
 
-		<div class="hidden md:block">
-			<a class="inline-block p-2 text-indigo-200 hover:text-indigo-100 mr-2" href="#">Login</a>
-			<a class="inline-block p-2 text-indigo-200 text-yellow-700 bg-yellow-400 hover:bg-yellow-300 hover:text-yellow-800 rounded transition ease-in duration-150" href="#">Signup</a>
-		</div>		
-	</div>
+		<div class="md:flex justify-between py-20 px-10 text-indigo-100 w-full h-3/4">
+			<div class="md:w-1/2 mb-10 md:mb-0">
+				<h2 class="text-2xl md:text-4xl lg:text-6xl text-white mb-6">Welcome to Doggy city!</h2>
+				<p class="mb-6">There is a never sad day here</p>
+				<a href="#" class="inline-block py-3 px-6 text-lg bg-gray-400 text-gray-800 hover:text-indigo-100 mr-2">Learn More</a>
+				<a href="#" class="inline-block py-3 px-6 text-lg bg-orange-400 text-orange-800 hover:text-indigo-100 mr-2">Get Started</a>
+			</div>
 
-	<div class="md:flex justify-between py-20 px-10 bg-indigo-600 text-indigo-100 w-full h-3/4">
-		<div class="md:w-1/2 mb-10 md:mb-0">
-			<h2 class="text-2xl md:text-4xl lg:text-6xl text-white mb-6">Welcome to Doggy city!</h2>
-			<p class="mb-6">There is a never sad day here</p>
-			<a href="#" class="inline-block py-3 px-6 text-lg bg-gray-400 text-gray-800 hover:text-indigo-100 mr-2">Learn More</a>
-			<a href="#" class="inline-block py-3 px-6 text-lg bg-orange-400 text-orange-800 hover:text-indigo-100 mr-2">Get Started</a>
-		</div>
-
-		<div class="md:w-1/2">
-			<img src="https://images.unsplash.com/photo-1560807707-8cc77767d783?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80" alt="dog" class="w-full h-1/2 rounded shadow-2xl">
+			<div class="md:w-1/2">
+				<img src="https://images.unsplash.com/photo-1560807707-8cc77767d783?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80" alt="dog" class="w-full h-3/4 rounded shadow-2xl">
+			</div>
 		</div>
 	</div>
 
